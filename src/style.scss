@@ -1,0 +1,20 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+
+  .calculator {
+    background: silver;
+    padding: 1rem;
+    &__container {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+  
+        * {
+            width: 50%;
+        }
+    }
+  }
+}
